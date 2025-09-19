@@ -1,7 +1,7 @@
 # Genetic_algorithm
 Genetic_algorithm test case
 
-## Optimization problem 
+## Optimization problem - maximize
 f(x, y) = cos((x - 1.14)<sup>6</sup>) - 100 * (y<sup>2</sup> - x)<sup>4</sup>
 
 0 &le; x &le; 2
