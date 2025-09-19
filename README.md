@@ -8,7 +8,7 @@ f(x, y) = cos((x - 1.14)^6) - 100*(y^2 - x)^4
 
 0 <= y <= 3
 
-x + y >= 1
+x + y &ge; 1
 
 ## Composition of chromosomes
 
@@ -17,20 +17,7 @@ The number of distinct values N = (b - a)/ε
 The number of bits n = log<sub>2</sub>N = log<sub>2</sub>(b - a)/ε
 
 
-# Genetic Algorithm for Optimization Problem 3
 
-## 1. Problem Definition
-
-We aim to **maximize** the following function under given constraints:
-
-\[
-f(x,y) = \cos((x - 1.14)^6) - 100 \cdot (y^2 - x)^4
-\]
-
-**Domain and constraints:**
-- \( 0 \< x \< 2 \)
-- \( 0 \<leq> y \leq 3 \)
-- \( x + y \geq 1 \)
 
 ---
 
