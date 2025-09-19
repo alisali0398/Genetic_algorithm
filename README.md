@@ -15,3 +15,5 @@ x + y &ge; 1
 The number of distinct values N = (b - a) / ε
 
 The number of bits n = log<sub>2</sub>N = log<sub>2</sub>(b - a) / ε
+
+Precision ε = 10<sup>-4</sup> means four places after the decimal point
