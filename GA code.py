@@ -129,11 +129,11 @@ x_opt, y_opt = decode_chromosome(best_chromosome)
 print(f"Best solution found: x = {x_opt:.4f}, y = {y_opt:.4f}")
 print(f"Maximum value of f(x, y): {best_fitness:.6f}")
 
-# График — как в оригинале
 plt.plot(fitness_history)
 plt.title("Evolution History")
 plt.xlabel("Generations")
 plt.ylabel("Best objective function")
 plt.grid(True)
 plt.show()
+
 
