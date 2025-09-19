@@ -35,9 +35,9 @@ Total chromosome length is 31 bits – first 15 bits to encode x, last 16 bits t
 encode y.
 
 ## Number of chromosomes and number of generations: 
-Size of the **population** is **200 chromosomes** 
+Size of the population is **200 chromosomes** 
 
-Number of **generations** is **5000**
+Number of generations is **5000 generations**
 
 ## Mechanisms of selection, crossover and mutation: 
 Selection mechanism – roulette wheel 
