@@ -2,11 +2,11 @@
 Genetic_algorithm test case
 
 ## Optimization problem 
-f(x, y) = cos((x - 1.14)^6) - 100*(y^2 - x)^4
+f(x, y) = cos((x - 1.14)<sup>6</sup>) - 100*(y^2 - x)^4
 
-0 <= x <= 2
+0 &le; x &le; 2
 
-0 <= y <= 3
+0 &le; y &le; 3
 
 x + y &ge; 1
 
