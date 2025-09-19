@@ -10,3 +10,6 @@ f(x, y) = cos((x - 1.14)<sup>6</sup>) - 100 * (y<sup>2</sup> - x)<sup>4</sup>
 
 x + y &ge; 1
 
+## The composition of chromosomes: 
+
+The number of distinct values N = x<sup>2</sup>/y<sub>3</sub>
