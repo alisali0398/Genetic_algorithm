@@ -13,3 +13,4 @@ x + y >= 1
 ## Composition of chromosomes
 
 The number of distinct values N = (b - a)/ε
+The number of bits n = log2N
