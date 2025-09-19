@@ -36,6 +36,7 @@ encode y.
 
 ## Number of chromosomes and number of generations: 
 Size of the **population** is **200 chromosomes** 
+
 Number of **generations** is **5000**
 
 ## Mechanisms of selection, crossover and mutation: 
@@ -52,5 +53,7 @@ survival to the next generation.
 
 ## Setting of tuning parameters: 
 Crossover rate – 0.9 
+
 Mutation rate – 0.1 
+
 Penalty rate – 10<sup>6</sup> 
