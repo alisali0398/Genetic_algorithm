@@ -12,4 +12,6 @@ x + y &ge; 1
 
 ## The composition of chromosomes: 
 
-The number of distinct values N = x<sup>2</sup>/y<sub>3</sub>
+The number of distinct values N = (b - a) / ε
+
+The number of bits n = log <sub>2</sub>N
