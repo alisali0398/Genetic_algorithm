@@ -30,3 +30,27 @@ For n<sub>y</sub>, the number of bits is rounded up to 16 to ensure there are en
 combinations to represent all possible values. Using the domain length equal to 
 15 gives us 2<sup>15</sup>=32768 values, which is just above 30000, so from safety 
 reasons the domain length equal to 16 will be used (2<sup>16</sup>= 65536 values). 
+
+Total chromosome length is 31 bits – first 15 bits to encode x, last 16 bits to 
+encode y.
+
+## Number of chromosomes and number of generations: 
+Size of the **population** is **200 chromosomes** 
+Number of **generations** is **5000**
+
+## Mechanisms of selection, crossover and mutation: 
+Selection mechanism – roulette wheel 
+
+Crossover mechanism – two-point crossover 
+
+Mutation mechanism – mutation of one random bit (bit flipping)
+
+## Constraint handling:  
+The constraint x + y &ge; 1 is used as a penalty method. If the solution violates the 
+constraint, a large negative fitness value is applied to decrease the possibility of 
+survival to the next generation.  
+
+## Setting of tuning parameters: 
+Crossover rate – 0.9 
+Mutation rate – 0.1 
+Penalty rate – 10<sup>6</sup> 
